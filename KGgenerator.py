@@ -76,7 +76,7 @@ elif (edgeInputType == "R"):
 
 # CREATING EDGES
 for edge in edgesDict.keys():
-    nodePair = edge.split(':')
+    nodePair = edge.split('-')
     fromNode = nodePair[0]
     toNode = nodePair[1]
     
